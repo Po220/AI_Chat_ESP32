@@ -1,0 +1,42 @@
+[1/32] Linking C static library esp-idf\coredump_upload_service\libcoredump_upload_service.a
+[2/32] Linking C static library esp-idf\espressif__esp_websocket_client\libespressif__esp_websocket_client.a
+[3/32] Linking C static library esp-idf\playlist\libplaylist.a
+[4/32] Linking C static library esp-idf\esp_coze\libesp_coze.a
+[5/32] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\soft_dawnload\esp\Espressif\frameworks\esp-idf-v5.1.2\examples\ai_chat\build\bootloader\esp-idf\esptool_py && D:\soft_dawnload\esp\Espressif\python_env\idf5.1_py3.13_env\Scripts\python.exe D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/bootloader/bootloader.bin"
+Bootloader binary size 0x51c0 bytes. 0x2e40 bytes (36%) free.
+[6/30] Building C object esp-idf/esp-adf-libs/CMakeFiles/__idf_esp-adf-libs.dir/media_lib_sal/port/media_lib_os_freertos.c.obj
+In file included from D:/idf/esp-adf/components/esp-adf-libs/media_lib_sal/port/media_lib_os_freertos.c:40:
+D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/components/esp_hw_support/include/soc/soc_memory_types.h:9:2: warning: #warning "soc_memory_types.h is deprecated, please migrate to esp_memory_utils.h" [-Wcpp]
+    9 | #warning "soc_memory_types.h is deprecated, please migrate to esp_memory_utils.h"
+      |  ^~~~~~~
+[7/30] Linking C static library esp-idf\esp-adf-libs\libesp-adf-libs.a
+[8/30] Linking C static library esp-idf\audio_mixer\libaudio_mixer.a
+[9/30] Linking C static library esp-idf\audio_recorder\libaudio_recorder.a
+[10/30] Building C object esp-idf/my_board/CMakeFiles/__idf_my_board.dir/my_board_v1_0/board.c.obj
+[11/30] Building C object esp-idf/my_board/CMakeFiles/__idf_my_board.dir/my_board_v1_0/board_pins_config.c.obj
+[12/30] Linking C static library esp-idf\my_board\libmy_board.a
+[13/30] Linking C static library esp-idf\esp_peripherals\libesp_peripherals.a
+[14/30] Linking C static library esp-idf\audio_hal\libaudio_hal.a
+[15/30] Linking C static library esp-idf\display_service\libdisplay_service.a
+[16/30] Linking C static library esp-idf\input_key_service\libinput_key_service.a
+[17/30] Linking C static library esp-idf\battery_service\libbattery_service.a
+[18/30] Linking C static library esp-idf\esp_actions\libesp_actions.a
+[19/30] Linking C static library esp-idf\dueros_service\libdueros_service.a
+[20/30] Linking C static library esp-idf\wifi_service\libwifi_service.a
+[21/30] Linking C static library esp-idf\tone_partition\libtone_partition.a
+[22/30] Linking C static library esp-idf\audio_stream\libaudio_stream.a
+[23/30] Linking C static library esp-idf\bluetooth_service\libbluetooth_service.a
+[24/30] Linking C static library esp-idf\ota_service\libota_service.a
+[25/30] Linking C static library esp-idf\main\libmain.a
+[26/30] Generating ld/sections.ld
+[27/30] Building C object CMakeFiles/ai_chat.elf.dir/project_elf_src_esp32s3.c.obj
+[28/30] Linking CXX executable ai_chat.elf
+[29/30] Generating binary image from built executable
+esptool.py v4.11.0
+Creating esp32s3 image...
+Merged 2 ELF sections
+Successfully created esp32s3 image.
+Generated D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/ai_chat.bin
+[30/30] cmd.exe /C "cd /D D:\soft_dawnload\esp\Espressif\frameworks\esp-idf-v5.1.2\examples\ai_chat\build\esp-idf\esptool_py && D:\soft_dawnload\esp\Espressif\python_env\idf5.1_py3.13_env\Scripts\python.exe D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/partition_table/partition-table.bin D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/ai_chat.bin"
+ai_chat.bin binary size 0x4366e0 bytes. Smallest app partition is 0x900000 bytes. 0x4c9920 bytes (53%) free.

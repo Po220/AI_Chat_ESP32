@@ -1,0 +1,7 @@
+{
+    "idf.currentSetup": "D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "idf.espAdfPathWin": "D:\\idf\\esp-adf"
+}

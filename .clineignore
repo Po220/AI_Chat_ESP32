@@ -1,0 +1,7 @@
+build/
+managed_components/
+.vscode/
+.git/
+*.bin
+*.elf
+*.map
