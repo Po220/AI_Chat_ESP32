@@ -4158,3 +4158,11 @@
 13460	13850	7949003430736762	D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/.bin_timestamp	50b88076cb760443
 13851	13931	0	esp-idf/esptool_py/CMakeFiles/app_check_size	354e75c94e0929dc
 13851	13931	0	D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/esp-idf/esptool_py/CMakeFiles/app_check_size	354e75c94e0929dc
+102	244	7948341103740722	bootloader-prefix/src/bootloader-stamp/bootloader-build	7a60717302e1096b
+102	244	7948341103740722	bootloader/bootloader.elf	7a60717302e1096b
+102	244	7948341103740722	bootloader/bootloader.bin	7a60717302e1096b
+102	244	7948341103740722	bootloader/bootloader.map	7a60717302e1096b
+102	244	7948341103740722	D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/bootloader-prefix/src/bootloader-stamp/bootloader-build	7a60717302e1096b
+102	244	7948341103740722	D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/bootloader/bootloader.elf	7a60717302e1096b
+102	244	7948341103740722	D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/bootloader/bootloader.bin	7a60717302e1096b
+102	244	7948341103740722	D:/soft_dawnload/esp/Espressif/frameworks/esp-idf-v5.1.2/examples/ai_chat/build/bootloader/bootloader.map	7a60717302e1096b

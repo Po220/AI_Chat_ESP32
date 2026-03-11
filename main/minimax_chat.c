@@ -68,7 +68,7 @@ char *minimax_chat(const char *text)
     int post_len = asprintf(&post_buffer, PSOT_DATA, text);
     
     if (post_buffer == NULL) {
-        goto exit_translate;
+        goto exit_translate;.
     }
 
     // POST
