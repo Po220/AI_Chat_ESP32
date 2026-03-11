@@ -67,10 +67,10 @@ static const char *TAG = "AI_CHAT_EXAMPLE";
 char *baidu_access_token = "25.e64aa12a1deb11cad01b2c1b9433d1f6.315360000.2059728961.282335-118460502";
 
 
-#define CONFIG_BAIDU_ACCESS_KEY     "gw3T9zXYIcA7X2V50JsW5Uh1"            // 这里修改成自己的百度API Key
-#define CONFIG_BAIDU_SECRET_KEY     "nSXbCjAULsJXCBa4hjMr3UyeOeQeBtjS"            // 这里修改成自己的百度Secret Key
+#define CONFIG_BAIDU_ACCESS_KEY     "KEEOJT10COS9NKgp1zTVT2ZH"            // 这里修改成自己的百度API Key
+#define CONFIG_BAIDU_SECRET_KEY     "v1MhSL8Zb0MOnHxzN9250aVLsjYBgeeA"            // 这里修改成自己的百度Secret Key
 // 把下面的xxx替换成自己的token_key
-const char * minimax_key = "Bearer sk-api-rujsuM_eARVy-vVJqzDUh61Oztr4H5RTy57oM707wB9KGopz6DHVNnhPO9DXp1qWlwTs31tunmE9LNjz5AhlZ4AcdUePYwnMY4ikts9iIuNE9l8V6Dj1ptY";
+const char * minimax_key = "Bearer sk-api-R2CT_LtWra2l2scK3CZS_pyK9igEAnd5VPOvBMWFDLw9SCMJR8vnj-RXov6vnq0exNGUthJxOBMv3rxERg0WiA1WDClC6zYgAi76kF213RJS28ybKMkDVr0";
  
 #define EXAMPLE_LVGL_TICK_PERIOD_MS    2
 

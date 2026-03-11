@@ -59,7 +59,7 @@ char *minimax_chat(const char *text)
     char *data_buf = NULL; 
 
     esp_http_client_config_t config = {
-        .url = "https://api.minimax.chat/v1/text/chatcompletion_pro?GroupId=2026933775266484237",  // 这里替换成自己的GroupId
+        .url = "https://api.minimax.chat/v1/text/chatcompletion_pro?GroupId=2031550266066604532",  // 这里替换成自己的GroupId
         .buffer_size_tx = 1024,  // 默认是512 minimax_key很长 512不够 这里改成1024
         .timeout_ms = 20000  // 将超时时间增加到 10 秒
     };
